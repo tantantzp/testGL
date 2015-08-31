@@ -1,0 +1,15 @@
+﻿生成启动时间为 2015/8/31 12:47:11。
+     1>项目“F:\tzpRepository\testGL\testGL\testGL\testGL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS2013\VC\bin\CL.exe /c /ID:\OpenCV\opencv2.4.4\build\include /ID:\OpenCV\opencv2.4.4\build\include\opencv /ID:\OpenCV\opencv2.4.4\build\include\opencv2 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\tzprepository\testgl\testgl\testgl\main.cpp(31): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+       Link:
+         F:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\tzpRepository\testGL\testGL\Debug\testGL.exe" /INCREMENTAL /NOLOGO freeglut.lib glew32.lib qtmaind.lib QtCore4.lib QtGui4.lib opencv_calib3d249.lib opencv_contrib249.lib opencv_core249.lib opencv_features2d249.lib opencv_flann249.lib opencv_gpu249.lib opencv_highgui249.lib opencv_imgproc249.lib opencv_legacy249.lib opencv_ml249.lib opencv_objdetect249.lib opencv_ts249.lib opencv_video249.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\tzpRepository\testGL\testGL\Debug\testGL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\tzpRepository\testGL\testGL\Debug\testGL.lib" /MACHINE:X86 Debug\loadShaders.obj
+         Debug\main.obj
+         testGL.vcxproj -> F:\tzpRepository\testGL\testGL\Debug\testGL.exe
+     1>已完成生成项目“F:\tzpRepository\testGL\testGL\testGL\testGL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.73
